@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Programación 1</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgDesafio1/Logo@2x.png">
+        <input type="text" placeholder="Ingrese el texto aqui" class="entradatos" id="textoEncriptar">
+    </header>
+    <div id="muneco">
+        <div id="imgtexto">
+            <textarea name="" id="mostrarTexto" cols="30" rows="5" disabled></textarea>
+
+            <div id="ocultatexto">
+                <img src="imgDesafio1/Muñeco.png" id="imgMuneco">
+                <div class="textomuneco">
+                    <label>Ningún mensaje fue encontrado</label>
+                </div>
+                <div class="textomuneco1">
+                    <label>Ingresa el texto que desees encriptar o desencriptar.</label>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <input type="button" value="Copiar" class="btnCopiar" id="btnCopiar" onclick="btnCopiar()">
+    </div>
+    <div class="botones">
+        <label class="letras">❆ Solo letras minúsculas y sin acentos</label>
+        <input type="submit" value="Encriptar!" id="encriptar" onclick=encriptarBtn()>
+        <input type="submit" value="Desencriptar" id="desencriptar" onclick="desencriptarBtn()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

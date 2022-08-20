@@ -1,0 +1,149 @@
+body {
+    background-color: #E5E5E5;
+}
+
+header{
+    width:940px;
+    margin: 20px;
+    
+}
+
+img{
+    width: 100px;
+    height: 48px;
+    left: 44px;
+    right: 200px;    
+}
+
+.entradatos{
+    height: 48px;
+    width: 40%;
+    background: #E5E5E5;
+    border: 0;
+    font-family: Inter; 
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top; /* alinea el contenido en la parte superior  */
+    margin-top: 40px;
+    margin-left: 150px; 
+    color: #0A3871;
+    outline: none; /*quita el efecto foco del cuadro de texto*/
+   
+}
+
+::placeholder{
+    color: #0A3871;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+#muneco{
+    width: 300px;
+    height: 543px;
+    margin-left: 940px;
+    margin-top: -120px;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 8px;
+    
+}
+
+#imgMuneco{
+    
+    width: 240px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 30px;   
+    
+   
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #0A3871;
+    
+}
+
+.botones{
+   display: inline-block;
+   position: absolute;      
+   bottom: 50px;
+   margin-left: 200px;
+   
+}
+
+#desencriptar,#encriptar{
+    width: 250px;
+    margin: 0 30px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #0A3871;
+    font-size: 16px;  
+    cursor: pointer;  
+    text-align: center;
+}
+
+#desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+#encriptar{
+
+    background-color: #0A3871;
+    color: white;    
+}
+
+.letras{
+    position: absolute;
+    bottom: 50px;
+    font-size: 10px;
+    line-height: 18px;
+    left: 40px;
+    color: #495057;
+    opacity: 80%;
+
+}
+
+.btnCopiar{
+ margin-top: 5px;
+ width: 200px; 
+ height: 40px;
+ border-radius: 10px;
+ border: 1px solid #0A3871;
+ font-size: 16px;
+ margin-left: 50px;
+ cursor: pointer;
+
+}
+
+.textomuneco{
+    display: inline-block;
+}
+
+.textomuneco, .textomuneco1{
+    width: 170px;
+    height: 58px;
+    text-align: center;
+    font-weight: bold;
+    color: #343A40;
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 0 22%;
+   
+}
+
+.textomuneco1{    
+    height: 48px;    
+    font-size: 12px;
+    font-weight:normal;
+}
+
+textarea{
+    visibility: hidden;
+    
+}
